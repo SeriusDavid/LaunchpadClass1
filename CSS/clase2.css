@@ -1,0 +1,11 @@
+p               { color:red; font-family: 'Droid Serif', serif; font-size:22px; float:right; }
+/* Esto va a ir a la derecha */
+.grandeAmarillo { color:yellow; font-size:44px; font-family:"Century Gothic"; float:right;}
+/* Esto va a ir a la izquierda */
+#pequenioAzul   { color:blue; font-size:4px; font-family:"Arial"; float:left; } 
+a:link          { text-decoration:none; }
+a:visited       { color: rgba(59, 156, 113, 0.2); }
+a:hover         { color: rgba(59, 156, 113, 1); font-size:44px; }
+
+.botonRojo      { background-color:rgb(59, 156, 113); color:white; padding:4px; border-radius:3px;  border:none; box-shadow: 10px 10px 5px #888888; }
+.botonRojo:hover{ background-color:rgb(59, 156, 50);  color:black; }

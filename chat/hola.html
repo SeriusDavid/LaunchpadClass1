@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var chat = "";
+        var mensaje;
+        var nombre;
+        function mensaje(){
+        nombre  = document.getElementById("nombre").value;
+        mensaje = document.getElementById("mensaje").value;
+        chat+= "Nombre: "+nombre+" <br> Mensaje: "+mensaje+"<br>";
+        document.getElementById("chat").innerHTML = chat;
+        }
+    </script>
+    <div class="amarillo" id="chat">
+        
+    </div>
+    <input type="text" name="nombre" id="nombre" placeholder="Ingresa el nombre"/>
+    <input type="text" name="chat" id="mensaje"  placeholder="Ingresa el texto"/>
+    <button onClick="mensaje();">Mandar</button>
+</body>
+</html>

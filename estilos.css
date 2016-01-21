@@ -1,0 +1,12 @@
+h1 { color:red;    font-size: 44px;   }
+h2 { color:blue;   font-family:"Century Gothic";  }
+h3 { color:green;  font-size: 40px;  }
+h4 { color:yellow; font-size: 35px; }
+h5 { color:gray;   font-size: 30px; }
+
+th { background-color:gray; color:green; font-family:"Century Gothic"; }
+td { color:gray;}
+
+.rojo { width:150px; height:150px; background-color:red; color:white; font-size: 40px;  }
+.blue { width:150px; height:150px; background-color:blue;  color:white;  font-size: 40px;  }
+.yellow { width:150px; height:150px; background-color:yellow; color:white; font-size: 40px; }

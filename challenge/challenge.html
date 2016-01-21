@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+   <link type="text/css" rel="stylesheet" href="challenge.css" /> 
+</head>
+<body>
+    <script>
+        var numero1 = 0;
+        var numero2 = 0;
+        var cualNumero = false;
+        function cambiarNumero(){
+            if(cualNumero)
+            { cualNumero = false; }
+            else
+            { cualNumero = true; }
+        }
+        function agregarValor(dato){
+            if(cualNumero)
+            {numero2 = dato; document.getElementById("cuatro").innerHTML = "agregando Numero 2"; }
+            else
+            {numero1 = dato; document.getElementById("cuatro").innerHTML = "agregando Numero 1";}
+        }
+        function suma(){
+            alert(numero1+numero2)
+        }
+    </script>
+    <div id="one">1</div>
+    <div id="two">2</div>
+    <div id="three">3</div>
+    <div id="four">4</div>
+    <button id="suma1" onClick="agregarValor(1);">1</button>
+     <button id="suma1" onClick="agregarValor(2);">2</button>
+      <button id="suma1" onClick="agregarValor(3);">3</button> 
+      <button id="suma1" onClick="agregarValor(4);">4</button>
+      <button onClick="cambiarNumero();">cambiar</button>
+    <button id="cuatro" onClick="suma();">Hola</button>
+</body>
+</html>

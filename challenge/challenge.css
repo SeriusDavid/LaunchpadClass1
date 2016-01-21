@@ -1,0 +1,28 @@
+div {   
+text-align:center;
+padding: 150px;
+width: 100px;
+border: 2px solid black;   	
+border-radius: 5px;
+/* inline-block = todos en la misma columna mientras se pueda ,block = se muestra por columnas, */
+display: block;        	 
+} 
+ 
+#one {         	
+background-color: #FF0000;
+}  
+#one:hover{
+    
+background-color: #FF0012;   
+}
+#two {         	
+background-color: #0000FF;
+} 
+ 
+#three {      	
+background-color: #FFD700;
+} 
+ 
+#four {        	
+background-color: #308014;
+}
